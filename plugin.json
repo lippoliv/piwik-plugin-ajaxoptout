@@ -1,0 +1,37 @@
+{
+    "name":        "AjaxOptOut",
+    "description": "Supports Opt Out from tracking through Ajax-Request. On your own Website you can implement a custom HTML, CSS and JS implementation to realize custom-styled opt out.",
+    "version":     "1.1.0",
+    "theme":       false,
+    "require":     {
+        "piwik": ">=2.15.0"
+    },
+    "authors":     [
+        {
+            "name":     "Lipperts WEB",
+            "email":    "info@lipperts-web.de",
+            "homepage": "http://lipperts-web.de"
+        }
+    ],
+    "support":     {
+        "email":  "support@lipperts-web.de",
+        "issues": "",
+        "forum":  "",
+        "irc":    "",
+        "wiki":   "",
+        "source": "",
+        "docs":   "",
+        "rss":    ""
+    },
+    "homepage":    "https://lw-scm.de/lipperts-web/piwik-ajax-opt-out",
+    "license":     "GPL v3+",
+    "keywords":    [
+        "opt out",
+        "opt in",
+        "tracking",
+        "ajax"
+    ],
+    "donate":      {
+        "paypal": "info@lipperts-web.de"
+    }
+}
