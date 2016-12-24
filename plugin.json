@@ -1,10 +1,10 @@
 {
     "name":        "AjaxOptOut",
     "description": "Supports Opt Out from tracking through Ajax-Request. On your own Website you can implement a custom HTML, CSS and JS implementation to realize custom-styled opt out.",
-    "version":     "1.1.0",
+    "version":     "1.1.1",
     "theme":       false,
     "require":     {
-        "piwik": ">=2.15.0"
+        "piwik": ">=3.0.0-stable,<4.0.0",
     },
     "authors":     [
         {
