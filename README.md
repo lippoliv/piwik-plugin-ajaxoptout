@@ -17,6 +17,8 @@ I had such an project and implemented this nice small plugin wich offers you thr
 
 You have to use JSONP Requests, as of the AJAX requests needs to manipulate the cookies.
 
+[More Informatione here](https://github.com/lippoliv/piwik-plugin-ajaxoptout/blob/master/README.md)
+
 ## Demo
 
 There is a Demo available for you to mention how to use it in your Project.
