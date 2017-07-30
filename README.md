@@ -10,9 +10,9 @@ I had such an project and implemented this nice small plugin wich offers you thr
 
 1. your.piwik/index.php?module=API&method=AjaxOptOut.isTracked  
     You will get an Response whether the current user get's tracked or not.
-1. index.php?module=API&method=AjaxOptOut.doIgnore  
+1. your.piwik/index.php?module=API&method=AjaxOptOut.doIgnore  
     Piwik will set the ignore cookie for the current user.
-1. index.php?module=API&method=AjaxOptOut.doTrack
+1. your.piwik/index.php?module=API&method=AjaxOptOut.doTrack
     Piwik will remove the ignore cookie for the current user.
 
 You have to use JSONP Requests, as of the AJAX requests needs to manipulate the cookies.
