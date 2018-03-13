@@ -7,7 +7,7 @@ var piwikAjaxOptOutIsTracked = true;
  */
 function piwikAjaxOptOutTrack () {
     $.ajax({
-        url:      piwikUrl + "index.php?module=API&method=AjaxOptOut.doTrack&format=json",
+        url:      piwikServerUrl + "index.php?module=API&method=AjaxOptOut.doTrack&format=json",
         jsonp:    "callback",
         dataType: "jsonp",
         success:  function (d) {
@@ -24,7 +24,7 @@ function piwikAjaxOptOutTrack () {
  */
 function piwikAjaxOptOutUntrack () {
     $.ajax({
-        url:      piwikUrl + "index.php?module=API&method=AjaxOptOut.doIgnore&format=json",
+        url:      piwikServerUrl + "index.php?module=API&method=AjaxOptOut.doIgnore&format=json",
         jsonp:    "callback",
         dataType: "jsonp",
         success:  function (d) {
@@ -71,7 +71,7 @@ $(document)
 
         // Retrieve initial status from piwik installation.
         $.ajax({
-            url:      piwikUrl + "index.php?module=API&method=AjaxOptOut.isTracked&format=json",
+            url:      piwikServerUrl + "index.php?module=API&method=AjaxOptOut.isTracked&format=json",
             jsonp:    "callback",
             dataType: "jsonp",
             success:  function (d) {
