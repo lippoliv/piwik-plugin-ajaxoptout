@@ -1,6 +1,6 @@
 {
     "name":        "AjaxOptOut",
-    "description": "Supports Opt Out from tracking through Ajax-Request. So you can implement a custom HTML, CSS and JS to realize custom-style opt out.",
+    "description": "Provide endpoints to opt-out, opt-in or get status of visitors tracking. So you can implement a custom HTML, CSS and JS to realize custom-style tracking management.",
     "version":     "master",
     "theme":       false,
     "require":     {
@@ -10,17 +10,17 @@
         {
             "name":     "Lipperts WEB",
             "email":    "info@lipperts-web.de",
-            "homepage": "http://lipperts-web.de"
+            "homepage": "https://lipperts-web.de"
         }
     ],
-    "support":     {
-        "email":  "support@lipperts-web.de",
-        "issues": "",
+    "support": {
+        "email":  "incoming+lipperts-web-piwik-ajax-opt-out-108-f1oh7ioy6ohhkbtnmyaki2blv-issue@git.lipperts-web.de",
+        "issues": "https://lw-scm.de/lipperts-web/piwik-ajax-opt-out/-/issues",
         "forum":  "",
         "irc":    "",
         "wiki":   "",
-        "source": "",
-        "docs":   "",
+        "source": "https://lw-scm.de/lipperts-web/piwik-ajax-opt-out/-/tree/master",
+        "docs":   "https://lw-scm.de/lipperts-web/piwik-ajax-opt-out/-/tree/master/src/docs/index.md",
         "rss":    ""
     },
     "homepage":    "https://lw-scm.de/lipperts-web/piwik-ajax-opt-out",
@@ -33,6 +33,6 @@
     ],
     "donate":      {
         "paypal": "info@lipperts-web.de",
-        "bitcoin": "1LcUQwNEvtjfs5EYbqMMmxCNSqaHKumn9M"
+        "bitcoin": "3NCEC86WTBKSRjTdWqTvjh3VScx16hgsB2"
     }
 }
