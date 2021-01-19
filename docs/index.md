@@ -46,3 +46,4 @@ I make sure all code changes are compatible to:
 I make sure that the plugin works as expected with this Matomo versions:
 
 - newest Matomo 3
+- newest Matomo 4
