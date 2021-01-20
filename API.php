@@ -8,14 +8,11 @@
 
 namespace Piwik\Plugins\AjaxOptOut;
 
-use Piwik\DataTable;
-use Piwik\DataTable\Row;
 use Piwik\Tracker\IgnoreCookie;
 
 /**
  * API for plugin AjaxOptOut
- *
- * @method static \Piwik\Plugins\AjaxOptOut\API getInstance()
+ * @method static API getInstance()
  */
 class API extends \Piwik\Plugin\API {
 
@@ -42,6 +39,11 @@ class API extends \Piwik\Plugin\API {
      * @return void
      */
     public function doIgnore () {
+        // Do nothing if the cookie already is set.
+        if (IgnoreCookie::isIgnoreCookieFound()) {
+            return;
+        }
+
         IgnoreCookie::setIgnoreCookie();
     }
 
