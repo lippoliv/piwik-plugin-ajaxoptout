@@ -1,5 +1,7 @@
 ## Changelog
 
+* 1.3.1 Updated Changelog for release 1.3.0
+* 1.3.0 Matomo 4 support, Update documentation and faq
 * 1.2.1 Optimize Plugin page
 * 1.2.0 Added jQuery Demo
 * 1.1.2 FIX JSON error
