@@ -27,10 +27,10 @@ There is a Demo available for you to mention how to use it in your Project.
 
 ### jQuery
 
-1. Set the correct PIWIK Url in `demo/jquery/index.html` (update the Row `var piwikUrl = 'http://piwik.lc/';`).
+1. Set the correct Matomo Url in `demo/jquery/index.html` (update the Row `var piwikUrl = 'http://piwik.lc/';`).
 1. Open the `index.html` via an running WebServer in your favorit Browser
 1. Use the Buttons to toggle the tracking state
-1. In parallel, watch the Tracking-Status in Piwik Backend or the Piwik Tracking iFrame
+1. In parallel, watch the Tracking-Status in Matomo Backend or the Matomo Tracking iFrame
 
 ## ToDo-List
 
