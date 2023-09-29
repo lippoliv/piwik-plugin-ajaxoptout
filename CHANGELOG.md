@@ -1,5 +1,6 @@
 ## Changelog
 
+* 5.0.0 Compatibility with Matomo 5
 * 1.4.0 FIX call doIgnore second time will enable tracking again, Mention web component in FAQ, Fix some jQuery demo
   issues
 * 1.3.1 Updated Changelog for release 1.3.0
